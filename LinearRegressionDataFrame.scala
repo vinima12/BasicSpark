@@ -37,7 +37,7 @@ object LinearRegressionDataFrame {
     val colNames = Seq("label", "features")
     val df = data.toDF(colNames: _*)
 
-    // Note, there are lots of cases where you can avoid going from an RDD to a DataFrame.
+    // Note, there are lots of cases where you can avoid going from  RDD to a DataFrame.
     // Perhaps you're importing data from a real database. Or you are using structured streaming
     // to get your data.
 
