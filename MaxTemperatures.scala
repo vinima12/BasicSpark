@@ -48,6 +48,5 @@ object MinTemperatures {
       val formattedTemp = f"$temp%.2f F"
       println(s"$station minimum temperature: $formattedTemp")
     }
-
   }
 }
