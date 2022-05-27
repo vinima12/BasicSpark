@@ -5,7 +5,6 @@ import org.apache.spark.sql.functions._
 
 /** Find the minimum temperature by weather station */
 object MinTemperaturesDataset {
-
   case class Temperature(stationID: String, date: Int, measure_type: String, temperature: Float)
 
   /** Our main function where the action happens */
