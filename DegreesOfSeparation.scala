@@ -15,7 +15,7 @@ object DegreesOfSeparation {
   val startCharacterID = 5306 //SpiderMan
   val targetCharacterID = 14 //ADAM 3,031 (who?)
 
-  // We make our accumulator a "global" Option so we can reference it in a mapper later.
+  // We make our accumulator a "global" Option so we can reference it in  mapper later.
   var hitCounter:Option[LongAccumulator] = None
 
   // Some custom data types
