@@ -36,6 +36,5 @@ object MaxTemperatures {
       val formattedTemp = f"$temp%.2f F"
       println(s"$station max temperature: $formattedTemp")
     }
-
   }
 }
