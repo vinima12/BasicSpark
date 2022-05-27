@@ -12,7 +12,6 @@ object DataFramesDataset{
   println(immutableHelloThere)
 
   // Data Types
-
   val numberOne: Int = 1
   val truth: Boolean = true
   val letterA: Char = 'a'
